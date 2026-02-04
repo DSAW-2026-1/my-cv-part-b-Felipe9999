@@ -1,0 +1,41 @@
+* {box-sizing:border-box}
+html, body
+{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.Title {
+    /*background-color: #101010;*/
+    text-align: center;
+    font-family: Calibri;
+    margin-left: 150px;
+    margin-right: 150px;
+}  
+h1.Title {
+    font-size: 3em;
+}
+h2.Title {
+    font-size: 2em;
+}
+.Text {
+    font-family: Calibri;
+    /*margin-left: 150px;
+    margin-right: 150px;*/
+    width: 80.25276461295418641390205371248%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.2em;
+}
+footer.Footer{
+    background-color: grey; margin-bottom: 0; overflow: hidden;
+}
+p.Footer{
+    margin-left: 1em;
+}
+.TopNav {
+    background-color: #f37421;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+}
