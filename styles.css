@@ -8,8 +8,6 @@ html, body
 .Title {
     text-align: center;
     font-family: Calibri;
-    /*margin-left: 150px;
-    margin-right: 150px;*/
     width: 80.25276461295418641390205371248%;
     margin-left: auto;
     margin-right: auto;
@@ -30,8 +28,6 @@ h3.Title{
 }
 .Text {
     font-family: Calibri;
-    /*margin-left: 150px;
-    margin-right: 150px;*/
     width: 80.25276461295418641390205371248%;
     margin-left: auto;
     margin-right: auto;
@@ -62,16 +58,16 @@ a {
     "abilities    exp      "
     "hobbies      exp      ";
 }
-@media screen and (min-width: 85vh){
+@media screen and (min-width: 90vh){
     .Info, .Abilities, .Hobbies{
-    background-color: rgba(128, 128, 128, 0.226);
-    margin: 0 1em;
-}
+        background-color: rgba(128, 128, 128, 0.226);
+        margin: 0 0 0 1em;
+    }
 }
 .Info{
     grid-area: info;
     border-radius: 1em 1em 0 0;
-    margin: 1em 1em 0 1em;
+    margin: 1em 0 0 1em;
 }
 .Formation{
     grid-area: formation;
@@ -85,12 +81,12 @@ a {
 .Hobbies{
     grid-area: hobbies;
     border-radius: 0 0 1em 1em;
-    margin: 0 1em 1em 1em;
+    margin: 0 0 1em 1em;
 }
 @media screen and (max-width: 130vh){
-        .siteGrid{
+    .siteGrid{
         display: grid;
-        grid-template-columns: 40vw 60vw;
+        grid-template-columns: 39vh auto;
         grid-template-rows: repeat(8, auto);
         grid-template-areas: 
         "info         formation"
@@ -103,8 +99,8 @@ a {
         "hobbies      exp      "
     }
 }
-@media screen and (max-width: 85vh){
-        .siteGrid{
+@media screen and (max-width: 90vh){
+    .siteGrid{
         display: block;
     }
 }
